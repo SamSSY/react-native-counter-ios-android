@@ -4,14 +4,14 @@
 
 I don't use any syntax out of React Native's enabled transformations, so no any patch on ReactNative is needed.
 
-- react - v0.14
-- react-native v0.22 (Hot Module Replacement!!!)
+- react - v15
+- react-native v0.30 (Hot Module Replacement!!!)
 - redux v3
 - react-redux v4
 - redux-thunk v2
-- remote-redux-devtools v0.1
+- remote-redux-devtools v0.3
 
-![](demo.png)
+![](https://cloud.githubusercontent.com/assets/8992046/15353674/c28f295e-1d1c-11e6-8168-5b17841e2b18.png)
 
 ## How to run this Porject
 
@@ -31,6 +31,13 @@ npm i
 #### run iOS
 
 Open `ios/ReduxCounterUniversal.xcodeproj` and hit run in Xcode.
+
+or
+
+```sh
+react-native run-ios
+```
+
 
 #### run Android
 
@@ -57,21 +64,11 @@ See [remote-redux-devtools](https://github.com/zalmoxisus/remote-redux-devtools)
 
 [React Native Upgrading](http://facebook.github.io/react-native/docs/upgrading.html)
 
-## Troubleshooting
+## Maintainers
 
-#### Naming collision detected
+- [C. T. Lin](https://github.com/chentsulin)
+- [Chiara-yen](https://github.com/Chiara-yen)
 
-```
-Failed to build DependencyGraph:
-Naming collision detected:
-/Users/dbrowne/Sites/react-native-counter-ios-android/node_modules/remote-redux-devtools/node_modules/react/node_modules/fbjs/lib/warning.js collides with /Users/dbrowne/Sites/react-native-counter-ios-android/node_modules/react-native/node_modules/fbjs/lib/warning.js
-
-Error:
-Naming collision detected:
-/Users/dbrowne/Sites/react-native-counter-ios-android/node_modules/remote-redux-devtools/node_modules/react/node_modules/fbjs/lib/warning.js collides with /Users/dbrowne/Sites/react-native-counter-ios-android/node_modules/react-native/node_modules/fbjs/lib/warning.js
-```
-
-see https://github.com/chentsulin/react-native-counter-ios-android/issues/12#issuecomment-186542678.
 
 ## License
 MIT © [C. T. Lin](https://github.com/chentsulin)
